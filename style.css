@@ -1,0 +1,286 @@
+body
+{
+    overflow-x: hidden;
+}
+.nav{
+    width: 100%;
+    height: 120px;
+    border: 1px solid; 
+    position:relative;
+    background-color:azure;
+    color:black;
+}
+.nav i{
+    position: absolute;
+    top: 50px;
+    left:50px;
+    font-size: 30px;
+
+}
+.logo{
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    font-size: x-large;
+
+}
+
+.one{
+  
+    list-style: none;
+    top: 0px;
+    left: 735px;
+    border: 0px solid;
+    padding: 50px;
+    transition: .5s;
+    position:absolute;
+}
+.one:hover{
+    background-color: teal;
+}
+.Two{
+    list-style: none;
+    top: 0px;
+    left: 890px;
+    border: 0px solid;
+    padding: 50px;
+    transition: .5s;
+    position:absolute;
+}
+.Two:hover{
+    background-color: aqua;
+}
+.three{
+    list-style: none;
+    top: 0px;
+    left: 1043px;
+    border: 0px solid;
+    padding: 50px;
+    transition: .5s;
+    position:absolute;
+}
+.three:hover{
+    background-color: tomato;
+}
+.four{
+    list-style: none;
+    top: 0px;
+    left: 1198px;
+    border: 0px solid;
+    padding: 50px;
+    transition: .5s;
+    position:absolute;
+}
+.four:hover{
+    background-color: coral;
+}
+.five{
+    list-style: none;
+    top: 0px;
+    left: 1355px;
+    border: 0px solid;
+    padding: 50px;
+    transition: .5s;
+    position:absolute;
+}
+.five:hover{
+    background-color: aqua;
+}
+.box{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 400px 400px 400px 400px;
+    gap: 0;
+    background-color:bisque;
+    text-align: center;
+    color: white;
+    transition: 2s;
+    
+    
+}
+
+span{
+    font-size: 0px;
+    
+}
+.box1{
+    display: grid;
+    align-items: center;
+    font-size: 30px;
+    background-image: url(https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FmZXxlbnwwfHwwfHx8MA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+.text:hover{
+    span{
+    font-size: 15px;
+    transition: .5s;
+}
+}
+.box2{
+    display: grid;
+    align-items: center;
+    font-size: 30px;
+     
+    background-image: url(https://plus.unsplash.com/premium_photo-1673522561650-0e9b68be2ca3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y2FmZXxlbnwwfHwwfHx8MA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+.box3{
+    display: grid;
+    align-items: center;
+    font-size: 30px;
+     
+    background-image: url(https://images.unsplash.com/photo-1559925393-8be0ec4767c8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y2FmZXxlbnwwfHwwfHx8MA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+.box4{
+    display: grid;
+    align-items: center;
+    font-size: 30px;
+     
+    background-image: url(https://images.unsplash.com/photo-1445116572660-236099ec97a0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGNhZmV8ZW58MHx8MHx8fDA%3D);
+    background-size: cover;
+    background-position: center;
+}
+.box5{
+    display: grid;
+    align-items: center;
+    font-size: 30px;
+     
+    background-image: url(https://images.unsplash.com/photo-1482350325005-eda5e677279b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGNhZmV8ZW58MHx8MHx8fDA%3D);
+    background-size: cover;
+    background-position: center;
+}
+.box6{
+    display: grid;
+    align-items: center;
+    font-size: 30px;
+     
+    background-image: url(https://images.unsplash.com/photo-1534040385115-33dcb3acba5b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGNhZmV8ZW58MHx8MHx8fDA%3D);
+    background-size: cover;
+    background-position: center;
+}
+.box7{
+    display: grid;
+    align-items: center;
+    font-size: 30px;
+     
+    background-image: url(https://images.pexels.com/photos/2559941/pexels-photo-2559941.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+    background-position: center;
+}
+.box8{
+    display: grid;
+    align-items: center;
+    font-size: 30px;
+     
+    background-image: url(https://images.pexels.com/photos/15286/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+    background-position: center;
+}
+.box9{
+    display: grid;
+    align-items: center;
+    font-size: 30px;
+     
+    background-image: url(https://images.pexels.com/photos/807598/pexels-photo-807598.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+    background-position: center;
+}
+.box10{
+    display: grid;
+    align-items: center;
+    font-size: 30px;
+     
+    background-image: url(https://images.pexels.com/photos/1739347/pexels-photo-1739347.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+    background-position: center;
+}
+.box11{
+    display: grid;
+    align-items: center;
+    font-size: 30px;
+     
+    background-image: url(https://images.pexels.com/photos/618915/pexels-photo-618915.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+    background-position: center;
+}
+.box12{
+    display: grid;
+    align-items: center;
+    font-size: 30px;
+     
+    background-image: url(https://images.pexels.com/photos/1332267/pexels-photo-1332267.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+    background-position: center;
+}
+.box13{
+    display: grid;
+    align-items: center;
+    font-size: 30px;
+     
+    background-image: url(https://images.pexels.com/photos/2819088/pexels-photo-2819088.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+    background-position: center;
+}
+.box14{
+    display: grid;
+    align-items: center;
+    font-size: 30px;
+     
+    background-image: url(https://images.pexels.com/photos/1752506/pexels-photo-1752506.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+    background-position: center;
+}
+.box15{
+    display: grid;
+    align-items: center;
+    font-size: 30px;
+     
+    background-image: url(https://images.pexels.com/photos/1200034/pexels-photo-1200034.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+    background-position: center;
+}
+.box16{
+    display: grid;
+    align-items: center;
+    font-size: 30px;
+     
+    background-image: url(https://images.pexels.com/photos/1352282/pexels-photo-1352282.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+    background-position: center;
+}
+.bottom{
+    width: 100%;
+    height: 100px;
+     
+    align-items: center;
+    display: grid;
+    text-align: center;
+    background-color: skyblue;
+    display: flex;
+    align-items: end;
+    justify-content:center;
+
+}
+.bottom i{
+    margin: 15px;
+    padding: 15px;
+    background-color:white ;
+    color: black;
+    
+    
+}
+.footer{
+    width: 100%;
+    height: 100px;
+     font-size: 20px;
+    align-items: center;
+    display: grid;
+    text-align: center;
+    background-color: aquamarine;
+    
+}
